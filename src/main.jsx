@@ -6,8 +6,8 @@ import './index.css'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    {/* <LanguageProvider> */}
+    <LanguageProvider>
       <App />
-    {/* </LanguageProvider> */}
+    </LanguageProvider>
   </StrictMode>,
 )
